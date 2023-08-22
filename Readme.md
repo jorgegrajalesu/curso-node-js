@@ -11,4 +11,8 @@ const data = fs.readFileSync('readme1.md', 'utf8');
 
 console.log(data);
 
+3. Crear nuevos archivos
+4. contar las palabras de un archivos
+
+
 ```

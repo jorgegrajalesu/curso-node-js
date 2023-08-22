@@ -1,6 +1,3 @@
-```
-1. Conceptos básicos de Node.js, crear el hola mundo
-2. Leer archivos con filesystem: ejemplo de un codigo
 // importar o utilizar el paquete filesystem
 
 const fs = require('fs');
@@ -11,4 +8,3 @@ const data = fs.readFileSync('readme1.md', 'utf8');
 
 console.log(data);
 
-```

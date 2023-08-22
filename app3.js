@@ -10,7 +10,7 @@ const contenido = fs.readFileSync('readme1.md', 'utf8');
 
 const countPalabras = contenido.split(' ').length;
 
-console.log(countPalabras);
+console.log('Palabras:' , countPalabras);
 
 
 

@@ -10,7 +10,13 @@ const contenido = fs.readFileSync('readme1.md', 'utf8');
 
 const countPalabras = contenido.split(' ').length;
 
+// determinar una palabra para el conteo React
+
+const contarReact = contenido.match(/react/gi ?? []).length;
+
+
 console.log('Palabras:' , countPalabras);
+console.log('Palabras React:' , contarReact);
 
 
 
